@@ -26,7 +26,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", -1003565819974))
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
-YT_API_KEY = getenv("YT_API_KEY" , 'xbit_gzlb5IbFpZZ_nIFsU7kDuM0-IokPM6Db') ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
+YT_API_KEY = getenv("YT_API_KEY" , 'xbit_mMngTos5JH-PMdYxnbj-lIVF1I4tBRWh') ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
