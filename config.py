@@ -24,10 +24,19 @@ ASSUSERNAME = getenv("ASSUSERNAME")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOGGER_ID = int(getenv("LOGGER_ID", -1003565819974))
 
-# Vars For API End Pont.
-YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com')  ## xBit Music Endpoint.
-YT_API_KEY = getenv("YT_API_KEY", 'xbit_DSsv0UVt9GVmGSTN5RViq7i-u4qHyFJK')  ## xBit API Key  ## Your API key ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
+# ======================================================
+# Vars For API End Point.
+YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com')
+YT_API_KEY = getenv("YT_API_KEY", 'xbit_DSsv0UVt9GVmGSTN5RViq7i-u4qHyFJK')
+YTPROXY_URL2 = getenv("YTPROXY_URL2", 'https://BabyAPI.Pro')
+YT_API_KEY2 = getenv("YT_API_KEY2", 'ADMINBABYX1C073D754502E7A7D0305725EC0E41F5')
 
+# ======================================================
+# Telegram Cache Channels
+TG_SONGS_STORAGE = getenv("TG_SONGS_STORAGE", "-1003947409698")
+TG_INDEX_CHANNEL = getenv("TG_INDEX_CHANNEL", "-1003719552350")
+
+# ======================================================
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "9999999"))
